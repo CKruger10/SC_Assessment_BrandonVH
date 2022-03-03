@@ -1,0 +1,1726 @@
+﻿body
+{
+    background: #fff;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+body.Gradient
+{
+    background: #FFF;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+}
+h1
+{
+    font-size: 12pt;
+    margin: 15px 5px 5px 5px;
+}
+.BodyGradient
+{
+    background-color: White;
+    background-image: url('../Images/Main/body_fill.jpg');
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    margin: 0px 0px 0px 0px;
+}
+hr
+{
+    height: 1px;
+    color: #5f5f5f;
+    width: 90%;
+}
+hr.footerline
+{
+    height: 2px;
+    border-top-color: #9f9f9f;
+    border-left-color: #9f9f9f;
+    border-right-color: #9f9f9f;
+    border-bottom-color: white;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+td
+{
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+}
+blockquote
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background-color: #d3ede2;
+    border: solid 1px #656565;
+    padding: 0px;
+    width: 100%;
+}
+a:link, a:visited, a:active
+{
+    text-decoration: none;
+    color: #c8c8c8;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.alt, a.alt:link, a.alt:visited, a.alt:active
+{
+    font-family: Arial;
+    font-size: 8pt;
+    color: #5f5f5f;
+}
+a.alt:hover
+{
+    text-decoration: underline;
+    color: #989898;
+}
+.dgSelected
+{
+    background-color: #B5F3C2;
+    color: Black;
+}
+.dgMain
+{
+    background-color: white;
+    color: Black;
+}
+a.dgMain:visited
+{
+    text-decoration: none;
+    color: #c8c8c8;
+}
+a.dgMain:active
+{
+    text-decoration: none;
+    color: White;
+}
+a.dgMain:hover
+{
+    text-decoration: underline;
+    color: White;
+}
+a.dg:visited
+{
+    text-decoration: none;
+    color: #c8c8c8;
+}
+a.dg:active
+{
+    text-decoration: none;
+    color: White;
+}
+a.dg:hover
+{
+    text-decoration: underline;
+    color: White;
+}
+small
+{
+    font-size: .7em;
+}
+big
+{
+    font-size: 1.17em;
+}
+blockquote, pre
+{
+    font-family: Arial;
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+ul li
+{
+    list-style-type: disc;
+}
+ul li li
+{
+    list-style-type: square;
+}
+ul li li li
+{
+    list-style-type: circle;
+}
+ol li
+{
+    list-style-type: decimal;
+}
+ol ol li
+{
+    list-style-type: lower-alpha;
+}
+ol ol ol li
+{
+    list-style-type: lower-roman;
+}
+img
+{
+    display: inline-block;
+    border: none;
+}
+table.border
+{
+    border: 1px solid;
+    border-color: #656565;
+    background-color: #c8c8c8;
+}
+.ErrorMessage
+{
+    color: #e62824;
+}
+.LabelsDark
+{
+    background-color: #656565;
+    color: White;
+    padding: 0px;
+    width: 33.33%;
+}
+.LabelsLight
+{
+    background-color: #bbbbbb;
+    color: White;
+    padding: 0px;
+    width: 33.33%;
+}
+.smallText
+{
+    font-size: 6pt;
+    font-weight: normal;
+}
+.TextBoxes
+{
+    background-color: #f9f9f9;
+    border: solid 1px #656565;
+    font-family: Arial;
+    font-size: 8pt;
+    color: black;
+    z-index: 100;
+}
+.TextBoxesNumeric
+{
+    background-color: White;
+    border: solid 1 #656565;
+    font-family: Arial;
+    font-size: 8pt;
+    color: black;
+    z-index: 100;
+    text-align: right;
+}
+
+.TextBoxLabel
+{
+    background-color: Transparent;
+    border: none;
+    font-family: Arial;
+    font-size: 8pt;
+    color: black;
+    z-index: 100;
+    cursor: auto;
+}
+.Buttons
+{
+    background-color: #334a46;
+    border: solid 1px #334a46;
+    color: White;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    width: 88px;
+    cursor: pointer;
+    background-image: url(../Images/buttons.jpg);
+    background-repeat: repeat-x;
+    background-position: top left;
+    padding: 2px;
+}
+.ButtonsHover
+{
+    background-color: #334a46;
+    border: solid 1px #334a46;
+    color: White;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    width: 88px;
+    cursor: pointer;
+    background-image: url(../Images/buttons.jpg);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+    padding: 2px;
+}
+.HeaderGlow
+{
+    color: White;
+    filter: progid:DXImageTransform.Microsoft.Glow(color=Black,strength=2);
+}
+.collapsePanel
+{
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+.HeaderTitle
+{
+    color: White;
+    filter: progid:DXImageTransform.Microsoft.Glow(color=Black,strength=2);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+.LargeText
+{
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.TitleStrip
+{
+    background-color: #c6c6c6;
+    border: solid 1px black;
+    color: White;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2px;
+}
+.TitleStripNoBorder
+{
+    color: #656565;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2px;
+    background-color: #dbdbdb;
+}
+.TitleStripDark
+{
+    background-color: #656565;
+    border: solid 1px black;
+    color: White;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2px;
+}
+#divManagementDescription
+{
+    border:none;
+}
+.managementBlock
+{
+    position:absolute;
+    display:inline-block;
+    top:30px;
+    left:350px;
+    right:30px;
+    width:450px !important;
+}
+.OutputBlack
+{
+    background-color: #535353;
+    border: solid 1px black;
+    color: White;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px;
+    font-style: italic;
+}
+.OutputGreen
+{
+    background-color: #fff;
+    border: solid 1px #656565;
+    color: #656565;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px;
+}
+#ucComponent_Performance_divActions span.OutputGreen
+{
+    background-color: #4b9b6e;
+}
+.OutputRed
+{
+    background-color: #dc5c4e;
+    border: solid 1px black;
+    color: #820c00;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px;
+}
+#ucComponent_Calendar_dvCal .OutputYellow
+{
+    background-color: #656565;
+}
+.GirdBlockLarge1
+{
+    background-color: red;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge2
+{
+    background-color: red;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge3
+{
+    background-color: #656565;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge4
+{
+    background-color: yellow;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge5
+{
+    background-color: yellow;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge6
+{
+    background-color: yellow;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge7
+{
+    background-color: lightgreen;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge8
+{
+    background-color: lightgreen;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.GirdBlockLarge9
+{
+    background-color: blue;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.x_axis1{
+    display:inline-block;
+    padding:0px 30px 0px 0px;
+}
+.x_axis2{
+    display:inline-block;
+    padding:0px 15px 0px 15px;
+}
+.x_axis3{
+    display:inline-block;
+    padding:0px 15px 0px 15px;
+}
+.x_axis4{
+    display:inline-block;
+    padding:0px 15px 0px 15px;
+}
+.x_axis5{
+    display:inline-block;
+    padding:0px 0px 0px 30px;
+}
+.OutputYellow
+{
+    background-color: #e5d043;
+    border: solid 1px black;
+    color: #88780e;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.Strategic_Goal
+{
+    background-color: #656565;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.HoverItems
+{
+    position: absolute;
+    width: 200px;
+    border: 1px solid #Black;
+    padding: 0px;
+    background-color: #3df9ad;
+    display: none;
+    z-index: 110;
+}
+.HoverShadow
+{
+    position: absolute;
+    width: 200px;
+    padding: 0px;
+    background-color: Gray;
+    display: none;
+    z-index: 109;
+    filter: progid:DXImageTransform.Microsoft.Blur( PixelRadius=5,MakeShadow=true,ShadowOpacity=0.90);
+}
+.MainBody
+{
+    background-color: White;
+}
+.DarkPanel
+{
+    border: solid 1px black;
+    color: White;
+    background-color: #656565;
+}
+.TreePanel
+{
+    background-color: #414141;
+    /*overflow: hidden;*/
+    width: 100%;
+    height: 100%;
+    padding: 4px 4px 4px 4px;
+    /*color: White;*/
+    display: inline-block;
+}
+.SilverPanel
+{
+   /* border: solid 1px #628478;*/
+    background-color: #fff;  /* original colour was #efefef */
+    background-attachment: fixed;
+}
+.SilverPanelNoBorder
+{
+    border: solid 1px #efefef;
+    background-color: #eee;
+    background-attachment: fixed;
+}
+.LightPanel
+{
+    border: solid 1px Black;
+    background-color: #fff; /* original was #eee /*
+    color: #656565; /*background-image: url(../Images/light_bg.jpg);*/
+}
+.LightPanelNoBorder
+{
+    background-color: #ccc;
+    color: #656565; /*background-image: url(../Images/light_bg.jpg);*/
+}
+.LightPanelShadow
+{
+    border: solid 1px Black;
+    background-color: #ccc;
+    color: #656565; /*background-image: url(../Images/light_bg.jpg);*/
+}
+.MenuButtonStrip
+{
+    background-color: #F5F5F5;
+    border: 1px Black solid;
+    border-style: solid;
+    cursor: pointer;
+    border-top-width: 0px;
+    width: 100%;
+        margin: 0px 0px 0px 1px;
+}
+.TopGroup
+{
+    cursor: pointer;
+}
+.MenuGroup
+{
+    background-image: url(../images/menu_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #d0d0d0;
+    border: 1px Black solid;
+    border-style: solid;
+    cursor: pointer;
+    width: 175px;
+}
+.TopMenuItem
+{
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 8pt;
+    cursor: default;
+}
+.TopMenuItemHover
+{
+    color: white;
+    background-image: url(images/top_itemHoverBg.gif);
+    background-color: #757495;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    cursor: default;
+}
+.MenuItem
+{
+    color: #c6c6c6;
+    cursor: pointer;
+    height: 20px;
+    background-image: url(../Images/Main/menu_item_fill.jpg);
+    background-repeat: repeat-x;
+    font-size: 8pt;
+}
+.MenuItemHover
+{
+    color: White;
+    background-image: url(../Images/Main/menu_item_fill_over.jpg);
+    background-repeat: repeat-x;
+    font-size: 8pt;
+    cursor: default;
+}
+.MenuItemExpanded
+{
+    color: #464646;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 5px;
+}
+.MenuItemExpandedOver
+{
+    border: none;
+    color: #dbdbdb;
+    background-color: #414141;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 4px;
+}
+.BreakItem
+{
+    background-color: #414141;
+    font-size: 11px;
+    cursor: pointer;
+    padding: 0px;
+    height: 1px;
+}
+.TabStripBG
+{
+    background-repeat: repeat-x;
+    background-position: bottom;
+    color: White;
+    padding-left: 0px;
+    padding-left: 6px;
+    padding-top: 2px;
+    background-color: #656565;
+}
+.TabGroup
+{
+    z-index: 99;
+    color: #fff;
+    background-repeat: repeat-x;
+    position: relative;
+}
+.TabContent
+{
+    border: solid 1px #5f5f5f;
+    border-top-width: 0px;
+    z-index: 0;
+    position: relative;
+}
+.TabItem
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    height: 17px;
+    color: #5f5f5f;
+    background-image: url(./../Images/Tabs/tab_sunken_fill.jpg);
+    background-repeat: repeat-x;
+}
+.TabItemHover
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #656565;
+    cursor: pointer;
+    background-image: url(./../Images/Tabs/tab_hover_fill.jpg);
+    background-repeat: repeat-x;
+}
+.TabItemSelected
+{
+    background-image: url(./../Images/Tabs/tab_fill.jpg);
+    background-repeat: repeat-x;
+    color: #383838;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.TabItemScroll
+{
+    padding: 0px;
+    top: -3;
+    position: relative;
+    z-index: 80;
+}
+.TreeView
+{
+    border: solid 1px Black;
+    background-color: White;
+    overflow: hidden;
+    height: 100%;
+    margin: 0px 0px 0px 1px;
+}
+.TreeViewRow
+{
+    overflow: hidden;
+    /*width: 100%;*/
+    width:220px;
+    padding: 0px;
+}
+.TreeViewLoading
+{
+    color: #d2121a;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+}
+.TreeViewItem
+{
+    color: #535353;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    /*height: 21px;*/
+    overflow: hidden;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.TreeViewItemHover
+{
+    color: #949494;
+    background-color: #dbdbdb;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    /*height: 21px;*/
+    overflow: hidden;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.TreeViewItemSelected
+{
+    padding: 2px;
+    width: 100%;
+    /*height: 21px;*/
+    overflow: hidden;
+    background-color: #949494;
+    color: #dbdbdb;
+    cursor: pointer;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.TreeViewItemNoEdit
+{
+    color: #b73e39;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    /*height: 21px;*/
+    overflow: hidden;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.TreeViewItemNoEditHover
+{
+    color: #b73e39;
+    background-color: #d9a09d;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    /*height: 21px;*/
+    overflow: hidden;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.TreeViewItemNoEditSelected
+{
+    padding: 2px;
+    width: 100%;
+    /*height: 21px;*/
+    overflow: hidden;
+    background-color: #b73e39;
+    color: #d9a09d;
+    cursor: pointer;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.TreeViewItemNoPadding
+{
+    color: #535353;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 17px;
+    overflow: hidden;
+    /*border-top: solid 1px white;
+    border-bottom: solid 1px white;*/
+}
+.TreeViewItemHoverNoPadding
+{
+    color: #949494;
+    background-color: #dbdbdb;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 17px;
+    overflow: hidden;
+    /*border-top: solid 1px white;
+    border-bottom: solid 1px white;*/
+}
+.TreeViewItemSelectedNoPadding
+{
+    padding: 0px;
+    width: 100%;
+    height: 17px;
+    overflow: hidden;
+    background-color: #949494;
+    color: #dbdbdb;
+    cursor: pointer;
+    /*border-top: solid 1px white;
+    border-bottom: solid 1px white;*/
+}
+.TreeViewItemNoEditNoPadding
+{
+    color: #b73e39;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 17px;
+    overflow: hidden;
+    /*border-top: solid 1px white;
+    border-bottom: solid 1px white;*/
+}
+.TreeViewItemNoEditHoverNoPadding
+{
+    color: #b73e39;
+    background-color: #d9a09d;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    height: 17px;
+    overflow: hidden;
+    /*border-top: solid 1px white;
+    border-bottom: solid 1px white;*/
+}
+.TreeViewItemNoEditSelectedNoPadding
+{
+    padding: 0px;
+    width: 100%;
+    height: 17px;
+    overflow: hidden;
+    background-color: #b73e39;
+    color: #d9a09d;
+    cursor: pointer;
+    /*border-top: solid 1px white;
+    border-bottom: solid 1px white;*/
+}
+.TreeViewItemBlack
+{
+    color: White;
+    background-color: #535353;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    height: 21px;
+    overflow: hidden;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    font-style: italic;
+}
+.HomePageBG
+{
+    background-color: #e5e5e5;
+}
+.HomePageWhite
+{
+    background-color: White;
+}
+.TreeViewItemNoGrad
+{
+    color: #535353;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    height: 21px;
+    overflow: hidden;
+    border-top: solid 3px white;
+    border-right: solid 1px white;
+}
+.TreeViewItemNoGradHover
+{
+    color: Gray;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 2px;
+    width: 100%;
+    height: 21px;
+    overflow: hidden;
+    border-top: solid 3px white;
+    border-right: solid 1px white;
+}
+.TreeViewItemNoGradSelected
+{
+    padding: 2px;
+    width: 100%;
+    height: 21px;
+    overflow: hidden;
+    color: #086c46;
+    cursor: pointer;
+    border-top: solid 3px white;
+    border-right: solid 1px white;
+}
+.ScorecardPerspective
+{
+    background-color: #656565;
+    border: solid 1px black;
+    color: White;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    font-style: italic;
+    padding: 2px;
+}
+.ScorecardOutput
+{
+    background-color: #aef0d4;
+    border: solid 1px black;
+    color: #656565;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 2px;
+}
+.ScorecardGoal
+{
+    background-color: #656565;
+    border: solid 1px black;
+    color: #dbdbdb;
+    font-family: Arial;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 1px;
+}
+.TabBG
+{
+    background-color: Transparent;
+}
+.MainPageBG
+{
+    background-color: #b1f4d7;
+}
+.TabSmall
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 3px;
+    border: solid 1px #628478;
+    background-color: #fff;
+    color: #656565;
+    padding: 1px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+}
+.TabSmallSelected
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    background-color: #fff;
+    border: solid 1px #628478;
+    border-bottom-width: 0px;
+    color: Black;
+    padding: 3px;
+    padding-bottom: 2px;
+    cursor: default;
+    width: 80px;
+    text-align: center;
+}
+.TabSmallHover
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 3px;
+    border: solid 1px #628478;
+    background-color: #c0e0d2;
+    color: #0db371;
+    padding: 1px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+}
+.PhotoTooltip
+{
+    border: solid 1px #656565;
+    background-color: #fff;
+    color: #656565;
+    font-weight: bold;
+    font-size: 7pt;
+    padding: 5px;
+    background-image: url(../Images/light_bg.jpg);
+    z-index: 110;
+}
+.Splitter
+{
+    background-image: url(../Images/dash.jpg);
+}
+.SplitterActive
+{
+    background-color: red;
+}
+.ToolbarIcon
+{
+    height: 20px;
+    width: 28px;
+    cursor: pointer;
+    display: block;
+}
+div.transparent_bg_green
+{
+    background-image: url(../Images/transparent_bg_green.png);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 998;
+    display: inline;
+    cursor: default;
+}
+div.transparent_bg_red
+{
+    background-image: url(../Images/transparent_bg_red.png);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 998;
+    display: inline;
+    cursor: default;
+}
+a.searchResult, a.searchResult:link, a.searchResult:visited, a.searchResult:active
+{
+    display: block;
+    width: 100%;
+    border-bottom: solid 1px silver;
+    color: Black;
+    font-weight: normal;
+    background-color: White;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+}
+a.searchResultSelected, a.searchResultSelected:link, a.searchResultSelected:visited, a.searchResultSelected:active
+{
+    display: block;
+    width: 100%;
+    border-bottom: solid 1px silver;
+    color: White;
+    font-weight: normal;
+    background-color: Silver;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+}
+a.searchResult:hover
+{
+    background-color: #EEEEEE;
+    cursor: pointer;
+    text-decoration: none;
+}
+.wingdings
+{
+    font-family: wingdings;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+.webdings
+{
+    font-family: webdings;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+input.ajaxUpload-button
+{
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+input.ajaxUpload-file
+{
+    width: 100px;
+    filter: alpha(opacity:0);
+    position: relative;
+    left: -100px;
+    cursor: pointer;
+}
+#ui-datepicker-div
+{
+    display: none;
+}
+img.ui-datepicker-trigger
+{
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    margin: 0 0 0 2px;
+}
+a.button
+{
+    font-size: 11px;
+    text-align: center;
+    margin: 1px 1px 1px 0px;
+    display: inline-block;
+    padding: 1px 4px;
+    text-decoration: none;
+    background: #aeaeae;
+    border: solid 1px #000;
+    color: #fff;
+}
+a.button:hover
+{
+    background: #7e7e7e;
+    text-decoration: none;
+}
+.numeric
+{
+    text-align: right;
+}
+#divProcessingLogo
+{
+    display: inline-block;
+    background: #fff;
+    padding: 5px;
+    color: #000;
+    z-index: 1002;
+    overflow: hidden;
+    white-space: nowrap;
+    margin:0 auto;
+    position:relative;
+    border-radius: 2px;
+    min-height: 25px;
+}
+#divProcessingLogo img
+{
+    float: left;
+}
+#divProcessingLogo span
+{
+    display: inline-block;
+    padding: 5px 0 0 5px;
+}
+#divPopupWindow
+{
+    background: #e3e3e3;
+}
+/*select#ddlApprover option[value="ACTIVE"], #ddlApprover option[value="INACTIVE"]{ background:#000; color:#fff;}*/
+.popup-border
+{
+    background: #333;
+    position: absolute;
+    z-index: 1001;
+}
+.inactive
+{
+    cursor: default;
+}
+.lowRes a
+{
+    width: 24px;
+}
+.hiddenNav a:hover
+{
+    text-decoration: none;
+}
+#userImageCopy
+{
+    position: absolute;
+    top: 10px;
+    z-index: 1000;
+    height: 70px;
+}
+#mainBody
+{
+    margin: 0;
+}
+#ui-datepicker-div
+{
+   z-index: 2147483647 !important;
+}
+.ajaxUpload-button, .ajaxUpload-file
+{
+    padding: 4px 5px;
+    color: #fff;
+}
+span.skype_pnh_container
+{
+    display: none !important;
+}
+span.skype_pnh_print_container, span[class^="skype_pnh_print_container"]
+{
+    display: inline !important;
+}
+/*
+#hideEmployees
+{
+    height: 33px;
+    padding-top:4px;
+}*/
+#hideNavContainer
+{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.hideButton
+{
+    background: #11929E;
+}
+
+a.hideButton span
+{
+    background-image: url(../images/new/icon-leftrightupdown.png);
+    color: #fff;
+    min-width: 16px;
+    min-height: 16px;
+    display: block;
+    background-position: center -29px;
+    background-repeat: no-repeat;
+}
+#openChat span, #openChat-popup span
+{
+    background-image: url(../images/new/icon-discuss.png);
+    background-position:  center center;
+}
+#communicateContainer
+{
+    width:0;
+    background:#fff;
+    z-index: 910;
+    position:absolute;    
+    top:115px;
+    bottom:14px;
+}
+#divPopupWindow #communicateContainer
+{
+    top: -2px !important;
+    right: 4px !important;
+    bottom: 4px;
+}
+#communicationMain
+{
+    position:absolute;
+    /*top:0;
+    bottom:0;
+    left:0;
+    right:0;*/
+    width:100%;
+    height:100%;
+}
+#communicate-tabs li.close
+{
+    height: 28px;   
+}
+#communicate-tabs
+{
+    top:0;
+}
+#communicate-home
+{
+    background-image: url(../images/new/home.png);
+    background-repeat:no-repeat;
+    background-position:  center center;
+    display:inline-block;
+    width:15px;
+}
+#communicate-home-li
+{
+    height: 31px;
+}
+#communicate-chats
+{
+    display:inline-block;
+    width:212px;
+}
+#communicate-sub-tabs
+{
+    overflow:hidden;
+    white-space:nowrap;
+    top:38px;
+}
+#plus-chat
+{
+    right: 30px;
+    top: 5px;
+}
+#plus-chat a{
+    padding:5px 1px 2px 0;
+}
+a.hideButton
+{
+    z-index: 898 !important;
+    display: block;
+    position: absolute;
+}
+
+a.hideButton:hover
+{
+    text-decoration: none;
+}
+#hideNav
+{
+    width: 25px;
+    vertical-align: middle;
+    top: 10px;
+    height: 40px;
+    padding-top: 30px;
+}
+#openChat, #openChat-popup
+{
+    width: 25px;
+    vertical-align: middle;
+    top: 80px;
+    height: 24px;
+    padding-top: 10px;
+}
+#openChat-popup
+{
+    top: 6px;
+height: 20px;
+padding-top: 5px;
+right: 33px;
+}
+a.hideButtonRight span
+{
+    background-position: center -16px !important;
+}
+.hiddenNav a
+{
+    position: absolute;
+    z-index: 1000 !important;
+    width: 25px;
+    height: 26px;
+    top: 80px;
+}
+
+body.SilverPanelNoBorder div#main{position:absolute; top:0; left:0; right:0; bottom:0;}
+/*body.SilverPanelNoBorder div#main > div{position:absolute; left:0; right:0; }*/
+#plusDropdown > li > span, .popup-body .title
+{
+    font-size:8pt;
+}
+#plusDropdownInverse > li > span, .popup-body .title
+{
+    font-size:8pt;
+}
+
+
+#grid-grid-Calendar div.grid-body
+{
+    margin: 0 7px;
+}
+
+
+div.grid-row .status-1
+{
+    border-left: 5px solid blue;
+    background: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+div.grid-row .status-2
+{
+    border-left: 5px solid blue;
+    background: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+
+#container_userAccount .error-message
+{
+     position: relative;
+     top: 5px;
+     margin:-2px 2px; 
+}
+
+#messagebox_overlay 
+{
+    background-image: url(../Images/transparent_bg_green.png);
+    position:fixed; 
+    left:0px; 
+    top:0px; 
+    width:100%; 
+    height:100%; 
+    display:none;
+    z-index:9999;
+}
+
+#messagebox_tab_strip
+{
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border-bottom: solid 3px #eee;
+    height: 37px;
+    white-space: nowrap;
+}
+
+#messagebox_tab_strip .title
+{
+    float: left;
+    padding: 13px 7px 10px 7px;
+    border-bottom: none;
+    background-color: #eee;
+}
+
+#messagebox_content 
+{
+    padding: 15px;
+    min-height: 75px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#messagebox_buttons 
+{
+    border-top: solid 3px #eee;
+    width: 100%;
+    height: 34px;
+    text-align: right;
+    padding-right: 2px;
+}
+
+#messagebox_close 
+{
+    position:absolute;
+    right:2px;
+    top:2px;
+}
+
+#messagebox_animate
+{
+    overflow: hidden;
+    position:absolute;
+    left:50%;
+    top:50%;
+    width: 0px;
+    height: 0px;
+}
+
+#messagebox_popup 
+{
+    background-color: white;
+}
+#libraryPopup_overlay 
+{
+    background-image: url(../Images/transparent_bg_green.png);
+    position:fixed; 
+    left:0px; 
+    top:0px; 
+    width:100%; 
+    height:100%; 
+    display:none;
+    z-index:9999;
+}
+
+#libraryPopup_tab_strip
+{
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border-bottom: solid 3px #eee;
+    height: 37px;
+    white-space: nowrap;
+}
+
+#libraryPopup_tab_strip .title
+{
+    float: left;
+    padding: 13px 7px 10px 7px;
+    border-bottom: none;
+    background-color: #eee;
+}
+
+#libraryPopup_content 
+{
+    padding: 15px;
+    min-height: 75px;
+    max-height: 380px;
+    overflow-y: hidden;
+}
+
+#libraryPopup_buttons 
+{
+    border-top: solid 3px #eee;
+    width: 100%;
+    height: 34px;
+    text-align: right;
+    padding-right: 2px;
+}
+#libraryPopup_buttons .action
+{
+/*	width:60px;
+	cursor: pointer;
+	height: 15px;
+	*/
+}
+
+#libraryPopup_close 
+{
+    position:absolute;
+    right:2px;
+    top:2px;
+}
+
+#libraryPopup_animate
+{
+    overflow: hidden;
+    position:absolute;
+    left:50%;
+    top:50%;
+    width: 0px;
+    height: 370px;
+	border: solid 4px #ccc;
+}
+
+#libraryPopup_popup 
+{
+    background-color: white;
+	height: 370px;
+}
+#messagebox_content  #bulletDiv{
+    display: inline-block;	
+}
+#messagebox_content  #messageText{
+    display: inline-table;
+    padding: 0px 0px 0px 3px;
+	width: 350px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/ /* If you want dots under the hoverable text */
+    margin: 0px 0px 0px 4px;
+}
+
+.tooltip_left {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/ /* If you want dots under the hoverable text */
+    margin: 0px 0px 0px 4px;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    text-transform: initial !important;
+    visibility: hidden;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 4px;
+    position: absolute;
+    border: 2px solid #0e395b;
+    margin: -10px 0px 0px 2px; 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Tooltip text */
+.tooltip_left .tooltiptext {
+    text-transform: initial !important;
+    visibility: hidden;
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 4px;
+    position: absolute;
+    border: 2px solid #0e395b;
+    margin: -10px 0px 0px 2px; 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip_left:hover .tooltiptext {
+    visibility: visible;
+}
+
+.grid-row-showall{
+    overflow:visible !important;
+}
+.grid-row-showall span{
+    overflow:visible !important;
+}
+
+.MyPerfromanceSimplified{
+
+}
+
+.MyPerfromanceSimplified div h1{
+    display:none !important;
+}
+
+.MyPerfromanceSimplified div div h1{
+    display:none !important;
+}
+
+.MyPerfromanceSimplified div div div h1{
+    display:none !important;
+}
+
+#grid-System_Settings-body h1.sub-title{
+    background:#c8c8c8 !important;
+    font-weight: bold;
+}
+div.question-center{
+    text-align:center;
+    padding:5px;
+}
+div.question-center div{
+    text-align:center;
+    padding:10px;
+}
+
+
+div.question-center a{
+    padding:5px;
+    text-decoration: none;
+}
+
+div.question-center div span{
+    display:block;
+    border:1px solid black;
+    min-height:20px;
+    padding: 6px 0px 0px 0px;
+}
+
+#lblrgbVal{
+    display: inline-block;
+    width: 169px;
+    height: 17px;
+    padding: 0px;
+    text-align: left;
+    font-size: 13px;
+}
+
+div.question-center label{
+    padding:5px;
+}
+
+div.divider label{
+    width: 115px;
+    display: inline-block;
+    text-align: left;
+}
+
+p{
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.frmDiv{
+    display: block;
+    height:50vh;
+}
+
+#QDiv0 pre{
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    text-align:left;
+    /*left: 30%;*/
+    width: 600px;
+}
+
+#QDiv0 pre comment {
+    font-style: italic;
+    color: green;
+}

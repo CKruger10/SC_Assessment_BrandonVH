@@ -1,0 +1,52 @@
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\bin\Interview.dll.config
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\bin\Interview.dll
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\bin\Interview.pdb
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\obj\Debug\Interview.csprojResolveAssemblyReference.cache
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\obj\Debug\Interview.dll
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\obj\Debug\Interview.pdb
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\bin\Newtonsoft.Json.dll
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\bin\Newtonsoft.Json.pdb
+D:\Users\Christiaan Krüger\Desktop\Interview\Practical\Interview\Interview\bin\Newtonsoft.Json.xml
+D:\Desktop\Interview\Interview\bin\Interview.dll.config
+D:\Desktop\Interview\Interview\bin\Interview.dll
+D:\Desktop\Interview\Interview\bin\Interview.pdb
+D:\Desktop\Interview\Interview\bin\Newtonsoft.Json.dll
+D:\Desktop\Interview\Interview\bin\Newtonsoft.Json.pdb
+D:\Desktop\Interview\Interview\bin\Newtonsoft.Json.xml
+D:\Desktop\Interview\Interview\obj\Debug\Interview.csprojAssemblyReference.cache
+D:\Desktop\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
+D:\Desktop\Interview\Interview\obj\Debug\Interview.csproj.CopyComplete
+D:\Desktop\Interview\Interview\obj\Debug\Interview.dll
+D:\Desktop\Interview\Interview\obj\Debug\Interview.pdb
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\obj\Debug\Interview.csprojAssemblyReference.cache
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\obj\Debug\Interview.dll
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\obj\Debug\Interview.pdb
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\bin\Interview.dll.config
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\bin\Interview.dll
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\bin\Interview.pdb
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\bin\Newtonsoft.Json.dll
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\bin\Newtonsoft.Json.pdb
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\bin\Newtonsoft.Json.xml
+C:\Work\Test\ScubedDevTestIncomplete\ScubedDevTestIncomplete\Interview\Interview\obj\Debug\Interview.csproj.CopyComplete
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\bin\Interview.dll.config
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\bin\Interview.dll
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\bin\Interview.pdb
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\bin\Newtonsoft.Json.dll
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\bin\Newtonsoft.Json.pdb
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\bin\Newtonsoft.Json.xml
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\obj\Debug\Interview.csprojAssemblyReference.cache
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\obj\Debug\Interview.csproj.CopyComplete
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\obj\Debug\Interview.dll
+C:\Work\Interview\Project\SC_Interview\Interview\Interview\obj\Debug\Interview.pdb
+W:\Development\SC_Interview\Interview\Interview\bin\Interview.dll.config
+W:\Development\SC_Interview\Interview\Interview\bin\Interview.dll
+W:\Development\SC_Interview\Interview\Interview\bin\Interview.pdb
+W:\Development\SC_Interview\Interview\Interview\bin\Newtonsoft.Json.dll
+W:\Development\SC_Interview\Interview\Interview\bin\Newtonsoft.Json.pdb
+W:\Development\SC_Interview\Interview\Interview\bin\Newtonsoft.Json.xml
+W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.csproj.AssemblyReference.cache
+W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
+W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.dll
+W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.pdb

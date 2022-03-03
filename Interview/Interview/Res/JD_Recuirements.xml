@@ -1,0 +1,47 @@
+<JobDescription_RequirementsProfile>
+	<RequirementCategory Id="3" Name="03. Equipment" Description="Equipment" Owner="">
+		<RequirementItem Id="24" Name="Fax" Criteria="Fax" Owner="" />
+		<RequirementItem Id="28" Name="Printer" Criteria="Printer" Owner="" />
+		<RequirementItem Id="36" Name="Telephones" Criteria="Telephones" Owner="" />
+	</RequirementCategory>
+	<!--<RequirementCategory Id="7" Name="04. Systems" Description="Systems" Owner="">
+		<RequirementItem Id="47" Name="Collaborator" Criteria="Collaborator" Owner="" />
+		<RequirementItem Id="55" Name="HRIS" Criteria="HRIS" Owner="" />
+		<RequirementItem Id="262" Name="Intranet" Criteria="Intranet" Owner="" />
+		<RequirementItem Id="64" Name="Meditech" Criteria="Meditech" Owner="" />
+	</RequirementCategory>
+	<RequirementCategory Id="4" Name="06. Communication and Relationships" Description="Communication and Relationships" Owner="">
+		<RequirementItem Id="270" Name="Doctors and other health professionals" Criteria="Doctors and other health professionals" Owner="" />
+		<RequirementItem Id="115" Name="Laboratory manager/s" Criteria="Laboratory manager/s" Owner="" />
+		<RequirementItem Id="124" Name="Pathologist" Criteria="Pathologist" Owner="" />
+		<RequirementItem Id="126" Name="Regional managers" Criteria="Regional managers" Owner="" />
+		<RequirementItem Id="9" Name="Staff at various levels" Criteria="Staff at various levels" Owner="" />
+		<RequirementItem Id="129" Name="Staff in other depots/labs" Criteria="Staff in other depots/labs" Owner="" />
+	</RequirementCategory>
+	<RequirementCategory Id="5" Name="07. Education and Qualifications " Description="Education and Qualification" Owner="">
+		<RequirementItem Id="138" Name="Grade 12" Criteria="Grade 12" Owner="" />
+		<RequirementItem Id="141" Name="National diploma in Biomedical Technology" Criteria="National diploma in Biomedical Technology" Owner="" />
+		<RequirementItem Id="143" Name="Registration in relevant discipline with HPCSA" Criteria="Registration in relevant discipline with HPCSA" Owner="" />
+	</RequirementCategory>
+	<RequirementCategory Id="8" Name="08. Required Experience" Description="Required Experience" Owner="">
+		<RequirementItem Id="147" Name="2-3 Yrs Relevant Working Experience" Criteria="2-3 Yrs Relevant Working Experience" Owner="" />
+	</RequirementCategory> -->
+	<RequirementCategory Id="9" Name="09. Relevant Job Knowledge" Description="" Owner="">
+		<RequirementItem Id="170" Name="Anatomy, physiology and medical terminology relevant to medical pathology &amp;apos;s" Criteria="&amp;apos;&amp;amp;lt; Anatomy, physiology &amp;amp; medical terminology relevant to medical pathology &amp;amp;gt;  &lt;script&gt;  alert('AAA'); &lt;/script&gt;" Owner="" />
+		<RequirementItem Id="184" Name="Laboratory information systems" Criteria="Laboratory information systems" Owner="" />
+		<RequirementItem Id="185" Name="Laboratory standards operating procedures and processes" Criteria="Laboratory standards operating procedures and processes" Owner="" />
+		<RequirementItem Id="187" Name="Medical ethical guidelines in the medical pathology fields" Criteria="œ Medical ethical guidelines in the medical pathology fields" Owner="" />
+		<RequirementItem Id="189" Name="Organisational policy procedures" Criteria="Organisational policy procedures" Owner="" />
+	</RequirementCategory>
+	<!--<RequirementCategory Id="6" Name="10.  Competencies Required To Do The Job" Description="" Owner="">
+		<RequirementItem Id="309" Name="Ability to handle sensitive and confidential information" Criteria="Ability to handle sensitive and confidential information" Owner="" />
+		<RequirementItem Id="201" Name="Ability to work as part of a team" Criteria="Ability to work as part of a team" Owner="" />
+		<RequirementItem Id="200" Name="Ability to work in a pressured environment" Criteria="Ability to work in a pressured environment" Owner="" />
+		<RequirementItem Id="203" Name="Accuracy" Criteria="Accuracy" Owner="" />
+		<RequirementItem Id="210" Name="Attention To Detail" Criteria="Attention To Detail" Owner="" />
+		<RequirementItem Id="226" Name="Flexibility" Criteria="Flexibility" Owner="" />
+		<RequirementItem Id="247" Name="Problem solving" Criteria="Problem solving" Owner="" />
+		<RequirementItem Id="251" Name="Rule orientation" Criteria="Rule orientation" Owner="" />
+		<RequirementItem Id="252" Name="Self-management" Criteria="Self-management" Owner="" />
+	</RequirementCategory>-->
+</JobDescription_RequirementsProfile>

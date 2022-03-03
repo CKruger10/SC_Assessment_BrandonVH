@@ -1,0 +1,11 @@
+<JobDescription_ScoreCard>
+	<Perspective Id="1" Name="A Company&amp;apos;s Strategic Theme" Description="Future &amp;amp;amp; Strategic Theme" Weight="100.00" Order="1">
+		<StrategicGoal Id="8" Name="Lean and Effective Operations" Description="Lean and Effective Operations" Weight="100.00" Owner="">
+			<KRA Id="1083" Name="Performance Porfolio" Weight="100.00" Owner="Interview">
+				<KPI Id="8222" Name="Performance Portfolio" Objective="" Measure="Did not meet expectations: Achieved some but not all tasks&#xA;More negative than positive performance/behaviour occurrences documented in the Performance Portfolio.&#xA;Significant negative performance/behavioural occurrence&#xA;&#xA;Successfully met expectations: Achieved tasks with normal supervision.&#xA;Balance of positive and negative performance/behavioural occurrences documented in the Performance Portfolio.&#xA;No significant negative occurrences.&#xA;You are a valued team member and are making a good contribution to the business&#xA;&#xA;Exceeded Expectations: Consistently achieved and frequently exceeded tasks through concerted effort.&#xA;More positive than negative performance/behaviour occurrences documented in the Performance Portfolio.&#xA;No significant negative occurrences.&#xA; You are a valued team member and made additional contributions to the business&#xA;&#xA;" Target="-1.00" Weight="100.00">
+					<Indicator Id="5" Name="Rating 1 - 3" Type="0" Formula="" Weight="0.00" Target="2.00" Owner="" />
+				</KPI>
+			</KRA>
+		</StrategicGoal>
+	</Perspective>
+</JobDescription_ScoreCard>
