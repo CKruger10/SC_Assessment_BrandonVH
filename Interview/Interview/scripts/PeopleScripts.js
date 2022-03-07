@@ -72,7 +72,7 @@ function PageData(CurrentPage, TotalPages, People, Search) {
                 if (data.length > 0) {
                     Page.TotalPages = data[0].Total_Pages;
                     data.forEach(person => {
-                        Page.People.push(new Person(person.ID, person.Name, person.Surname, person.Age));
+                        Page.People.push(new Person(person.ID, person.Name, person.Surname, person.Age, person.PeopleHobbies));
                     });
 
                 }
@@ -115,15 +115,48 @@ function PageData(CurrentPage, TotalPages, People, Search) {
         $('#UpdateUser #updateName').val(Page.People.filter(f => f.ID == data)[0].Name);
         $('#UpdateUser #updateAge').val(Page.People.filter(f => f.ID == data)[0].Age);
     }
+   
 
     PageData.prototype.Insert = function () {
         var person = new Person();
         person.Name = $('#InsertUser #insertName').val();
         person.Surname = $('#InsertUser #insertSurname').val();
         person.Age = parseInt($('#InsertUser #insertAge').val());
+        if (Validate(person.Name, person.Age, person.Surname)) {
+            
+            AjaxCall({
+                Url: window.top.SI_Window.applicationPath + "/People.aspx/InsertPerson",
+                Data: person,
+                Delegate: function (result) {
+                    Page.CreatePage();
+                }
+            });
+        } 
+    }
+
+    PageData.prototype.Update = function () {
+        var person = new Person();
+        person.Name = $('#UpdateUser #updateName').val();
+        person.Age = $('#UpdateUser #updateAge').val();
+        person.ID = parseInt($('#UpdateUser #updateId').val());
+        if (Validate(person.Name, person.Age)) {
+
+            AjaxCall({
+                Url: window.top.SI_Window.applicationPath + "/People.aspx/UpdatePerson",
+                Data: person,
+                Delegate: function (result) {
+                    Page.CreatePage();
+                }
+            });
+        }
+    }
+
+    PageData.prototype.Delete = function () {
+        var person = new Person();
+        person.ID = parseInt($('#UpdateUser #updateId').val());
 
         AjaxCall({
-            Url: window.top.SI_Window.applicationPath + "/People.aspx/InsertPerson",
+            Url: window.top.SI_Window.applicationPath + "/People.aspx/DeletePerson",
             Data: person,
             Delegate: function (result) {
                 Page.CreatePage();
@@ -132,17 +165,37 @@ function PageData(CurrentPage, TotalPages, People, Search) {
     }
 }
 
-function Person(ID, Name, Surname, Age) {
+function Person(ID, Name, Surname, Age, Hobbies) {
     this.ID = ID;
     this.Name = Name;
     this.Surname = Surname;
     this.Age = Age;
-
+    this.Hobbies = Hobbies;
     Person.prototype.BuildRow = function () {
         var tr = $('<tr></tr>');
         tr.append($('<td>' + this.Name + '</td>'));
         tr.append($('<td>' + this.Surname + '</td>'));
+        tr.append($('<td>' + this.Hobbies + '</td>'));
         tr.append($('<td><button onclick="$(\'#UpdateUser\').slideToggle();Page.setUpdateData(' + this.ID + ');">Open</button></td>'));
         return tr;
     }
 } 
+function Search(value) {
+    Page.Search = value;
+    Page.CreatePage();
+}
+function Validate(Name, Age, Surname = null) {
+    if (isNaN((Age))) {
+        alert("Age must be an integer!");
+        return false;
+    }
+    if (Name.length < 3) {
+        alert("Length of Name must be more than 3 characters!");
+        return false;
+    }
+    if (Surname != null && Surname.length < 3) {
+        alert("Length of surname must be more than 3 characters!");
+        return false;
+    }
+    return true;
+}

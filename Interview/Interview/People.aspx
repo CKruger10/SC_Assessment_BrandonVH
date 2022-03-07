@@ -109,7 +109,7 @@
     </div>
     <div class="table-header">
         <label>Search</label>
-        <input class="textboxes thin" />
+        <input class="textboxes thin" onkeyup="Search(this.value);" />
     </div>
     <table id="tbl-people">
         <thead>
@@ -128,13 +128,13 @@
         </tbody>
     </table>
     <div class="table-footer">
-        <button id="btn-next" style="padding-right: 15px;" onclick="Page.CreatePage();">next</button>
+        <button id="btn-next" style="padding-right: 15px;" onclick="Page.CurrentPage += 1;Page.CreatePage();">next</button>
         <button id="currPage" style="cursor: default">1 of 3</button>
         <button id="btn-prev" style="padding-left: 15px;" onclick="Page.CurrentPage -= 1;Page.CreatePage();">prev</button>
     </div>
 
     <script>
-        var Page = new PageData(1, 1, [], '');
+        var Page = new PageData(1, 10, [], '');
         Page.CreatePage();
     </script>
 </body>

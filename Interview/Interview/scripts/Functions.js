@@ -136,14 +136,19 @@ function convertHex(el) {
 
 function ListCombine() {
     var ListA = [];
+    var ListB = [];
     $('#ddlList1 option').each(function () {
         ListA.push($(this).val());
     });
+    $('#ddlList2 option').each(function () {
+        ListB.push($(this).val());
+    });
+    console.log(SI_Window.applicationPath + "/Ajax.aspx/ListCombine");
     AjaxCall({
         Url: SI_Window.applicationPath + "/Ajax.aspx/ListCombine",
         Data: {
-            a: ListA,
-            b:ListB
+            A: ListA,
+            B: ListB
         },
         Delegate: function (result) {
             $('#spnQ5').html(result.d)

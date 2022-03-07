@@ -33,12 +33,12 @@ namespace Interview
 
 
             //Question Defaults (Testing the ability to simply apply parameters to a function , and write the function)
-            string res = Questions.CountSaturdays(1,1).ToString();
+            string res = Questions.CountSaturdays(dt.Year,dt.Month).ToString();
             return res;
         }
 
-
-        public static bool TestAnagram(string w1, string w2)
+        [WebMethod]
+        public static string TestAnagram(string w1, string w2)
         {
             return Questions.IsAnagram(w1, w2); 
         }
@@ -52,7 +52,7 @@ namespace Interview
 
         //Emit static by default
         [WebMethod]
-        public string HexToRGB(string hex)
+        public static string HexToRGB(string hex)
         {
             return Questions.FromHex(hex).ToString();
         }
@@ -61,14 +61,11 @@ namespace Interview
         public static string ListCombine(string[] A, string[] B)
         {
             //Test ability to use a List
-            string ret = "";
 
             var retList = Questions.Combine(A.ToList(), B.ToList());
 
-            foreach(var l in retList)
-            {
-                ret += l.ToString() + ", ";
-            }
+            String ret = String.Join(",", retList.ToArray());
+           
             return ret;
 
         }

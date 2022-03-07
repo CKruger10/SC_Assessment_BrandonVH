@@ -50,3 +50,14 @@ W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.csproj.Assem
 W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
 W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.dll
 W:\Development\SC_Interview\Interview\Interview\obj\Debug\Interview.pdb
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\bin\Interview.dll.config
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\bin\Interview.dll
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\bin\Interview.pdb
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\bin\Newtonsoft.Json.dll
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\bin\Newtonsoft.Json.pdb
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\bin\Newtonsoft.Json.xml
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\obj\Debug\Interview.csproj.AssemblyReference.cache
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\obj\Debug\Interview.csproj.CopyComplete
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\obj\Debug\Interview.dll
+C:\Users\brandon\Desktop\Website\SCUBED\Interview\Interview\obj\Debug\Interview.pdb

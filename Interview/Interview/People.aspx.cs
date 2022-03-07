@@ -41,6 +41,27 @@ namespace Interview
             paramArr.Add(new SqlParameter("@Age", Age));
 
             return Newtonsoft.Json.JsonConvert.SerializeObject(RunStoredProcParams("UpdatePerson", paramArr));
+        }   
+        
+        [WebMethod]
+        public static object InsertPerson(string Name, string Surname, int Age)
+        {
+            var paramArr = new List<SqlParameter>();
+            paramArr.Add(new SqlParameter("@Name", Name));
+            paramArr.Add(new SqlParameter("@Surname", Surname));
+            paramArr.Add(new SqlParameter("@Age", Age));
+
+            return Newtonsoft.Json.JsonConvert.SerializeObject(RunStoredProcParams("InsertPerson", paramArr));
+        } 
+        
+        [WebMethod]
+        public static object DeletePerson(int ID )
+        {
+            var paramArr = new List<SqlParameter>();
+            paramArr.Add(new SqlParameter("@ID", ID));
+       
+
+            return Newtonsoft.Json.JsonConvert.SerializeObject(RunStoredProcParams("DeletePerson", paramArr));
         }
 
         public static IEnumerable<dynamic> RunStoredProcParams(string SPName,List<SqlParameter> Params)
@@ -52,7 +73,7 @@ namespace Interview
             {
                 // create and open a connection object
                 conn = new
-                    SqlConnection("server=lacalhost;database=Interview;integrated security=true"); // connection string for connecting to interview DB on local SQL Server
+                    SqlConnection("server=localhost;database=Interview;integrated security=true"); // connection string for connecting to interview DB on local SQL Server
                 conn.Open();
 
                 // 1. create a command object identifying
