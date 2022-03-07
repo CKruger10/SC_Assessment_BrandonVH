@@ -10,7 +10,7 @@
     $('#QDiv' + QuestionNo).show();
 }
 
-function AjaxCall (params) {
+function AjaxCall(params) {
     var execute = function (params) {
         $.ajax({
             url: params.Url,
@@ -32,7 +32,6 @@ function AjaxCall (params) {
                 if (params.ForceJson) {
                     result.d = JSON.parse(result.d);
                 }
-
 
                 if (params.Delegate)
                     params.Delegate(result);
@@ -57,7 +56,7 @@ function AjaxCall (params) {
                     var MessageIdx = AjaxResponse[0].indexOf("Message");
                     if (MessageIdx > -1) {
                         var messageArr = AjaxResponse[0].split(':');
-                        for (var i = 1 ; i < messageArr.length; i++) {
+                        for (var i = 1; i < messageArr.length; i++) {
                             ResponseMessage = ResponseMessage + messageArr[i];
                         }
                     }
@@ -114,7 +113,6 @@ function CircleCollide() {
             $('#spnQ3').html(result.d);
         }
     });
-
 }
 
 function convertHex(el) {
@@ -131,7 +129,6 @@ function convertHex(el) {
             $('.colorshowRGB').css({ "background-color": result.d });
         }
     });
-
 }
 
 function ListCombine() {
@@ -152,7 +149,6 @@ function ListCombine() {
         },
         Delegate: function (result) {
             $('#spnQ5').html(result.d)
-
         }
     });
 }
@@ -169,7 +165,6 @@ function CreateNumber() {
         },
         Delegate: function (result) {
             $('#spnQ6').html(result.d)
-
         }
     });
 }

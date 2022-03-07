@@ -37,8 +37,8 @@
                 <li><a onclick="showDetails(this,2);" href="javascript:void(0);">Details 2</a></li>
             </ul>
         </div>
-        <div id="ContentDiv1" class="content top"  runat="server"></div>
-        <div id="ContentDiv2" class="content top" style="display:none;" runat="server"></div>
+        <div id="ContentDiv1" class="content top" runat="server"></div>
+        <div id="ContentDiv2" class="content top" style="display: none;" runat="server"></div>
     </form>
 </body>
 </html>

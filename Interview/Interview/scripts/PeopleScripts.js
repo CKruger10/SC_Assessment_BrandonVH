@@ -1,5 +1,4 @@
-﻿
-function AjaxCall(params) {
+﻿function AjaxCall(params) {
     var execute = function (params) {
         $.ajax({
             url: params.Url,
@@ -21,7 +20,6 @@ function AjaxCall(params) {
                 if (params.ForceJson) {
                     result.d = JSON.parse(result.d);
                 }
-
 
                 if (params.Delegate)
                     params.Delegate(result);
@@ -74,7 +72,6 @@ function PageData(CurrentPage, TotalPages, People, Search) {
                     data.forEach(person => {
                         Page.People.push(new Person(person.ID, person.Name, person.Surname, person.Age, person.PeopleHobbies));
                     });
-
                 }
                 else {
                     Page.TotalPages = 1;
@@ -82,7 +79,6 @@ function PageData(CurrentPage, TotalPages, People, Search) {
                         Page.CurrentPage = 1;
                         Page.CreatePage();
                     }
-
                 }
                 Page.LoadTablePeople();
             }
@@ -115,7 +111,6 @@ function PageData(CurrentPage, TotalPages, People, Search) {
         $('#UpdateUser #updateName').val(Page.People.filter(f => f.ID == data)[0].Name);
         $('#UpdateUser #updateAge').val(Page.People.filter(f => f.ID == data)[0].Age);
     }
-   
 
     PageData.prototype.Insert = function () {
         var person = new Person();
@@ -123,7 +118,6 @@ function PageData(CurrentPage, TotalPages, People, Search) {
         person.Surname = $('#InsertUser #insertSurname').val();
         person.Age = parseInt($('#InsertUser #insertAge').val());
         if (Validate(person.Name, person.Age, person.Surname)) {
-            
             AjaxCall({
                 Url: window.top.SI_Window.applicationPath + "/People.aspx/InsertPerson",
                 Data: person,
@@ -131,7 +125,7 @@ function PageData(CurrentPage, TotalPages, People, Search) {
                     Page.CreatePage();
                 }
             });
-        } 
+        }
     }
 
     PageData.prototype.Update = function () {
@@ -140,7 +134,6 @@ function PageData(CurrentPage, TotalPages, People, Search) {
         person.Age = $('#UpdateUser #updateAge').val();
         person.ID = parseInt($('#UpdateUser #updateId').val());
         if (Validate(person.Name, person.Age)) {
-
             AjaxCall({
                 Url: window.top.SI_Window.applicationPath + "/People.aspx/UpdatePerson",
                 Data: person,
@@ -179,7 +172,7 @@ function Person(ID, Name, Surname, Age, Hobbies) {
         tr.append($('<td><button onclick="$(\'#UpdateUser\').slideToggle();Page.setUpdateData(' + this.ID + ');">Open</button></td>'));
         return tr;
     }
-} 
+}
 function Search(value) {
     Page.Search = value;
     Page.CreatePage();

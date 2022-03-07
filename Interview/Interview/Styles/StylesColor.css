@@ -1,421 +1,421 @@
-﻿#loginOverlay{
+﻿#loginOverlay {
     background-image: url("images/Main/Themes/ScubedNewBlue/landingPage.png");
     background-repeat: no-repeat;
     /*background-position: center;*/
-	background-size: 100% 100%;
-	/*background-size: cover;*/
-	background-color: white;
+    background-size: 100% 100%;
+    /*background-size: cover;*/
+    background-color: white;
 }
+
 #overlayFormContainer {
-	margin-left: 200px;
-	background: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
+    margin-left: 200px;
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
-#overlayFormContainer #footer{
-	border:none;
-}
-div.grid-row .status-1
-{
+
+    #overlayFormContainer #footer {
+        border: none;
+    }
+
+div.grid-row .status-1 {
     border-left: 5px solid #0E385B;
 }
-div.grid-row .status-2
-{
+
+div.grid-row .status-2 {
     border-left: 5px solid #951B1F;
 }
-#title-actions
-{
+
+#title-actions {
     background: #0E385B;
 }
-#user-details
-{
+
+#user-details {
     background: #951B1F;
 }
-#logo
-{
+
+#logo {
     margin: 0;
 }
-#main
-{
+
+#main {
     background-image: url("images/Main/Themes/ScubedNewBlue/watermarksolid.png");
     background-repeat: no-repeat;
     background-position: center;
-	background-size: contain;
-	background-color: white;
-	background-position-x: 0px;
-	background-position: 0px 0px;
+    background-size: contain;
+    background-color: white;
+    background-position-x: 0px;
+    background-position: 0px 0px;
 }
-#header
-{
+
+#header {
     background: #951B1F;
 }
-a.heading
-{
+
+a.heading {
     background: #0E385B;
     border-top: solid #fff 2px;
 }
-.userName-hover
-{
+
+.userName-hover {
     border-color: #951B1F;
     background: #951B1F;
 }
-.userName-hover label
-{
-    color: #fff;
-}
-div.main-actions
-{
+
+    .userName-hover label {
+        color: #fff;
+    }
+
+div.main-actions {
     background: #951B1F;
     border-bottom: 2px #fff solid;
 }
-a.main-action
-{
+
+a.main-action {
     background: #0E385B;
 }
-a.main-action:hover
-{
-    background-color: #951B1F;
-}
-div.main-actions a.main-action span
-{
+
+    a.main-action:hover {
+        background-color: #951B1F;
+    }
+
+div.main-actions a.main-action span {
     background: #fff;
     color: #000;
 }
-div.main-actions a.selected, .hiddenNav a.selected
-{
+
+div.main-actions a.selected, .hiddenNav a.selected {
     background-color: #951B1F;
 }
-div.main-actions a.selected, .hiddenNav a.selected:hover
-{
-    background-color: #951B1F;
-}
-#session-timer
-{
+
+    div.main-actions a.selected, .hiddenNav a.selected:hover {
+        background-color: #951B1F;
+    }
+
+#session-timer {
     color: #fff;
 }
-#searchBox
-{
+
+#searchBox {
     border-color: #951B1F;
 }
-#container
-{
+
+#container {
     background: #fff;
 }
-.sessionActions
-{
+
+.sessionActions {
     background: #951B1F;
     border-color: #0E385B;
 }
-.sessionActions:hover
-{
-    background: #0E385B;
-    border-color: #951B1F;
-}
-#lblError
-{
+
+    .sessionActions:hover {
+        background: #0E385B;
+        border-color: #951B1F;
+    }
+
+#lblError {
     color: #f00;
 }
-span.paging-link
-{
+
+span.paging-link {
     border-top: solid 3px #951B1F;
 }
-#plusDropdown > li > span, .popup-body .title
-{
+
+#plusDropdown > li > span, .popup-body .title {
     background: #951B1F;
 }
-.popup-body
-{
+
+.popup-body {
     border: 5px solid #951B1F;
 }
-.popup-pointer
-{
+
+.popup-pointer {
     border-left: 10px solid #951B1F;
 }
-span.paging-link
-{
+
+span.paging-link {
     border-top: solid 3px #951B1F;
 }
-a.button:hover, a.attachment:hover, #plusDropdown li a.button:hover
-{
+
+a.button:hover, a.attachment:hover, #plusDropdown li a.button:hover {
     background-color: #951B1F;
     border: solid 2px #951B1F;
 }
-div.paging
-{
+
+div.paging {
     color: #0E385B;
 }
-div.paging a
-{
-    color: #951B1F;
-}
-div.paging a:hover
-{
-    color: #0E385B;
-}
-a.attachment:link, a.attachment:active, a.attachment:visited
-{
+
+    div.paging a {
+        color: #951B1F;
+    }
+
+        div.paging a:hover {
+            color: #0E385B;
+        }
+
+a.attachment:link, a.attachment:active, a.attachment:visited {
     background-color: #951B1F;
 }
-a.action:link, a.action:active, a.action:visited, a.customaction:link, a.customaction:active, a.customaction:visited
-{
+
+a.action:link, a.action:active, a.action:visited, a.customaction:link, a.customaction:active, a.customaction:visited {
     border: solid 2px #0E385B;
     color: #0E385B;
 }
-a.customaction:link, a.customaction:active, a.customaction:visited
-{
+
+a.customaction:link, a.customaction:active, a.customaction:visited {
     background: #0E385B;
     color: #fff;
 }
-a.ajaxUpload-button
-{
+
+a.ajaxUpload-button {
     background: #951B1F;
 }
-ul.tab-strip li.selected a
-{
+
+ul.tab-strip li.selected a {
     border-bottom: solid 3px #951B1F;
 }
-ul.tab-strip-bottom li.selected a
-{
+
+ul.tab-strip-bottom li.selected a {
     border-bottom: none;
     border-top: solid 3px #951B1F;
 }
-ul.tab-strip li.action a
-{
+
+ul.tab-strip li.action a {
     background: #0E385B;
 }
-a.action
-{
+
+a.action {
     background: #0E385B;
 }
-body#mainBody
-{
+
+body#mainBody {
     background: #DEDEDE;
 }
-ul.tab-strip li.action a:hover
-{
+
+ul.tab-strip li.action a:hover {
     background: #951B1F;
 }
-a.button, a.attachment
-{
+
+a.button, a.attachment {
     border: solid 2px #0E385B;
     color: #0E385B;
 }
-a.primary
-{
+
+a.primary {
     background-color: #0E385B;
     border: solid 2px #0E385B;
     color: #fff;
 }
-div.activity .admin-nav .selected span, div.comment .admin-nav .selected span{
-	color:#fff;
+
+div.activity .admin-nav .selected span, div.comment .admin-nav .selected span {
+    color: #fff;
 }
-div.activity span, div.comment span
-{
+
+div.activity span, div.comment span {
     color: #951B1F;
 }
-a.form:link, a.form:active, a.form:visited
-{
+
+a.form:link, a.form:active, a.form:visited {
     background: #0E385B;
     border: 2px #0E385B solid;
 }
-a.form:hover
-{
+
+a.form:hover {
     background: #;
     color: #fff;
     border: 2px #951B1F solid;
 }
-a.attachment, a.attachment:link, a.attachment:active, a.attachment:visited
-{
+
+a.attachment, a.attachment:link, a.attachment:active, a.attachment:visited {
     color: #fff;
     border: 2px #0E385B solid;
     background: #0E385B;
 }
-a.attachment:hover
-{
-    background: #951B1F;
-    color: #fff;
-    border: solid 2px #951B1F;
-}
-a.customaction:hover
-{
+
+    a.attachment:hover {
+        background: #951B1F;
+        color: #fff;
+        border: solid 2px #951B1F;
+    }
+
+a.customaction:hover {
     background: #951B1F !important;
     border: solid 2px #951B1F;
     color: #fff;
 }
-a.action:hover
-{
+
+a.action:hover {
     background: #951B1F !important;
     border: solid 2px #951B1F;
     color: #fff;
 }
-a.ajaxUpload-button
-{
+
+a.ajaxUpload-button {
     border: solid 2px #951B1F;
 }
-a.ajaxUpload-button:hover
-{
+
+    a.ajaxUpload-button:hover {
+        background: #0E385B;
+        border: solid 2px #0E385B;
+        color: #fff;
+    }
+
+h1.title {
     background: #0E385B;
-    border: solid 2px #0E385B;
-    color: #fff;
 }
-h1.title
-{
-    background: #0E385B;
-}
-h1.sub-title
-{
+
+h1.sub-title {
     background: #951B1F;
 }
-.textboxes
-{
+
+.textboxes {
     background: #dadbdb;
     color: #333;
     border: solid 2px #0E385B;
 }
-.hideButton
-{
+
+.hideButton {
     background: #0E385B;
 }
-.hideButton:hover
-{
-    background: #951B1F;
-}
-#user-details:hover
-{
+
+    .hideButton:hover {
+        background: #951B1F;
+    }
+
+#user-details:hover {
     background: #0E385B;
 }
-#photo{
-	background: none;
+
+#photo {
+    background: none;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-.userImage{
-	background: none;
+
+.userImage {
+    background: none;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border-radius: 50%;	
+    border-radius: 50%;
 }
-#userImageLarge{
-	background: none;
+
+#userImageLarge {
+    background: none;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border-radius: 50%;		
+    border-radius: 50%;
 }
-#plusDropdown li a:hover
-{
+
+#plusDropdown li a:hover {
     background: #0E385B;
     color: #fff;
 }
-.legends-1
-{
+
+.legends-1 {
     border-left: solid #0E385B 15px;
 }
-.event-type-1
-{
+
+.event-type-1 {
     background: #0E385B;
-    color:#fff !important;
+    color: #fff !important;
 }
-.legends-2
-{
+
+.legends-2 {
     border-left: solid #333 15px;
 }
-.event-type-2
-{
+
+.event-type-2 {
     background: #333;
-    color:#fff !important;
+    color: #fff !important;
 }
-.legends-3
-{
+
+.legends-3 {
     border-left: solid #951B1F 15px;
 }
-.event-type-3
-{
+
+.event-type-3 {
     background: #951B1F;
     color: #fff !important;
 }
-div.grid-row-hover, .grid-body div.selected
-{
+
+div.grid-row-hover, .grid-body div.selected {
     border-left: 3px solid #951B1F;
     border-right: 3px solid #951B1F;
     margin: 0px;
 }
-#menu a.heading:hover
-{
+
+#menu a.heading:hover {
     color: #951B1F;
 }
-ul.list li.odd, div.grid-row-alt > span
-{
+
+ul.list li.odd, div.grid-row-alt > span {
     background: url("images/Main/Navigation-Themes/transparentGrey.png") !important;
 }
-.grid-body div.selected
-{
+
+.grid-body div.selected {
     background: #951B1F;
 }
-.grid-body div.selected > span
-{
-    background: transparent;
-}
-#menu .grid-pager
-{
+
+    .grid-body div.selected > span {
+        background: transparent;
+    }
+
+#menu .grid-pager {
     background: #fff;
 }
 
-
-#title-actions span:hover, #title-actions span.selected
-{
-    background:#951B1F;
+#title-actions span:hover, #title-actions span.selected {
+    background: #951B1F;
 }
 
-.popup-body .grid .title
-{
+.popup-body .grid .title {
     background: #0E385B;
 }
 
 /**Mobile Styles**/
 
-.mobile-plus a
-{
+.mobile-plus a {
     color: #0E385B;
 }
-.mobile-plus a:hover
-{
-    color: #951B1F;
-    text-decoration:none;
-}
-.mobileMenuButton
-{
-  background-color: #951B1F;  
-}
-.mobileMenuButton:hover
-{
-  background-color: #0E385B;  
-}
-.TreePanel
-{
+
+    .mobile-plus a:hover {
+        color: #951B1F;
+        text-decoration: none;
+    }
+
+.mobileMenuButton {
     background-color: #951B1F;
 }
-.TitleStripDark
-{
+
+    .mobileMenuButton:hover {
+        background-color: #0E385B;
+    }
+
+.TreePanel {
+    background-color: #951B1F;
+}
+
+.TitleStripDark {
     background-color: #0E385B;
     border: none;
     padding: 2px 0px 2px 0px;
 }
 
-.LabelsDark
-{
+.LabelsDark {
     background-color: #0E385B;
 }
 
-.LightPanel
-{
-    border: none ; /*solid 1px #6BA2BFk;*/
+.LightPanel {
+    border: none; /*solid 1px #6BA2BFk;*/
     background-color: #0E385B;
     color: #0E385B; /*background-image: url(../Images/light_bg.jpg);*/
 }
@@ -427,13 +427,14 @@ ul.list li.odd, div.grid-row-alt > span
     padding: 2px;
     text-align: center;
 }
-.GridFooter   
-{
+
+.GridFooter {
     background-color: #0E385B;
     border: 1px solid;
     border-color: #951B1F;
     padding: 2px;
 }
+
 .Buttons {
     background-color: #0E385B;
     border: solid 2px #951B1F;
@@ -443,11 +444,12 @@ ul.list li.odd, div.grid-row-alt > span
     font-weight: bold;
     width: 88px;
     cursor: pointer;
-    background-image: url(../Images/buttons.jpg); 
+    background-image: url(../Images/buttons.jpg);
     background-repeat: repeat-x;
-    background-position: top left; 
+    background-position: top left;
     padding: 0px;
 }
+
 .ButtonsHover {
     background-color: #951B1F;
     border: solid 2px #951B1F;
@@ -457,12 +459,12 @@ ul.list li.odd, div.grid-row-alt > span
     font-weight: bold;
     width: 88px;
     cursor: pointer;
-    background-image: url(../Images/buttons.jpg); 
+    background-image: url(../Images/buttons.jpg);
     background-repeat: repeat-x;
-    background-position: top left; 
+    background-position: top left;
     padding: 0px;
 }
-.TreeViewItemSelected 
-{
-    background-color : #951B1F;
+
+.TreeViewItemSelected {
+    background-color: #951B1F;
 }

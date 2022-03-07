@@ -4,7 +4,7 @@
 * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
 * Dual licensed under the MIT or GPL Version 2 licenses.
 * http://jquery.org/license
-*   
+*
 * http://docs.jquery.com/UI
 */
 (function (c, j) {
@@ -1528,11 +1528,7 @@ function (a) {
 "isRTL") ; a && (a.type == "hidden" || a.nodeType != 1 || d.expr.filters.hidden(a)) ;) a = a[b ? "previousSibling" : "nextSibling"]; a = d(a).offset(); return [a.left, a.top]
         },
 
-
-
-
         /*_hideDatepicker: function (a) {
-        
             var b = this._curInst; if (!(!b || a && b != d.data(a, "datepicker"))) if (this._datepickerShowing) {
                 a = this._get(b, "showAnim"); var c = this._get(b, "duration"), e = function () { d.datepicker._tidyDialog(b); this._curInst = null }; d.effects && d.effects[a] ? b.dpDiv.hide(a, d.datepicker._get(b, "showOptions"), c, e) : b.dpDiv[a == "slideDown" ? "slideUp" : a == "fadeIn" ?
 "fadeOut" : "hide"](a ? c : null, e); a || e(); if (a = this._get(b, "onClose")) a.apply(b.input ? b.input[0] : null, [b.input ? b.input.val() : "", b]); this._datepickerShowing = false; this._lastInput = null; if (this._inDialog) { this._dialogInput.css({ position: "absolute", left: "0", top: "-100px" }); if (d.blockUI) { d.unblockUI(); d("body").append(this.dpDiv) } } this._inDialog = false
@@ -1561,21 +1557,12 @@ function (a) {
                     this._datepickerShowing = false;
                     this._lastInput = null;
                     if (this._inDialog) {
-
                         this._dialogInput.css({ position: "absolute", left: "0", top: "-100px" });
 
                         if (d.blockUI) { d.unblockUI(); d("body").append(this.dpDiv) }
                     } this._inDialog = false
-
-
                 }
-
         },
-
-
-
-
-
 
         _tidyDialog:
         function (a) {
@@ -1594,14 +1581,6 @@ function (a) {
                 && d.datepicker._hideDatepicker()
             }
         },
-
-
-
-
-
-
-
-
 
         _adjustDate: function (a, b, c) { a = d(a); var e = this._getInst(a[0]); if (!this._isDisabledDatepicker(a[0])) { this._adjustInstDate(e, b + (c == "M" ? this._get(e, "showCurrentAtPos") : 0), c); this._updateDatepicker(e) } }, _gotoToday: function (a) {
             a =
@@ -1658,9 +1637,6 @@ l, g)
             }; if (b = (b = b == null || b === "" ? c : typeof b == "string" ? f(b) : typeof b == "number" ? isNaN(b) ? c : e(b) : new Date(b.getTime())) && b.toString() == "Invalid Date" ? c : b) { b.setHours(0); b.setMinutes(0); b.setSeconds(0); b.setMilliseconds(0) } return this._daylightSavingAdjust(b)
         },
 
-
-
-
         _daylightSavingAdjust: function (a) { if (!a) return null; a.setHours(a.getHours() > 12 ? a.getHours() + 2 : 0); return a }, _setDate: function (a, b, c) {
             var e = !b, f = a.selectedMonth, h = a.selectedYear; b = this._restrictMinMax(a, this._determineDate(a, b, new Date)); a.selectedDay =
 a.currentDay = b.getDate(); a.drawMonth = a.selectedMonth = a.currentMonth = b.getMonth(); a.drawYear = a.selectedYear = a.currentYear = b.getFullYear(); if ((f != a.selectedMonth || h != a.selectedYear) && !c) this._notifyChange(a); this._adjustInstDate(a); if (a.input) a.input.val(e ? "" : this._formatDate(a))
@@ -1694,9 +1670,6 @@ P + "</tr>"
     } I += M
 } I += e + (d.browser.msie && parseInt(d.browser.version, 10) < 7 && !a.inline ? '<iframe src="javascript:false;" class="ui-datepicker-cover" frameborder="0"></iframe>' : ""); a._keyEvent = false; return I
         },
-
-
-
 
         _generateMonthYearHeader: function (a, b, c, e, f, h, i, g) {
             var j = this._get(a, "changeMonth"), l = this._get(a, "changeYear"), u = this._get(a, "showMonthAfterYear"), k = '<div class="ui-datepicker-title">',

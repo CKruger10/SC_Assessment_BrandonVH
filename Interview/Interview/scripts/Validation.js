@@ -2,7 +2,6 @@
     return date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
 }
 
-
 function ValidateField(control, validationType) {
     switch (validationType) {
         case "Integer": ValidateInteger(control); break;
@@ -577,7 +576,6 @@ var TypeControls = function (container) {
                                         function (result) {
                                             var ctxParams = uploadParams;
                                             if (result && result.Name == "Error") {
-
                                                 var stockElement = "<input type=\"text\" id=\"" + element.attr("id") + "\" name=\"" + element.attr("id") + "\" class=\"ajaxupload\" value uploadparameters=\"" + ctxParams + "\" />"
                                                 $("#" + element.attr("id") + "_container").outerHTML(stockElement);
                                                 RenderAjaxUpload($("#" + element.attr("id")));
@@ -630,7 +628,6 @@ var TypeControls = function (container) {
         });
     }
     catch (e) {
-
     }
 };
 

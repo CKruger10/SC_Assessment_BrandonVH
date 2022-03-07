@@ -1,69 +1,68 @@
-﻿.jobdescription-inputcategory, .jobdescription-perspective
-{
+﻿.jobdescription-inputcategory, .jobdescription-perspective {
     margin: 10px;
 }
-.jobdescription-perspective
-{
+
+.jobdescription-perspective {
     border-bottom: none;
 }
-.jobdescription-goal
-{
+
+.jobdescription-goal {
     border: solid 3px #eee;
     border-top: none;
 }
-.jobdescription-kra, .jobdescription-kpi
-{
+
+.jobdescription-kra, .jobdescription-kpi {
     border-top: solid 3px #eee;
     border-left: solid 12px #eee;
 }
-.jobdescription-inputcategory h1.title, .jobdescription-perspective h1.title
-{
+
+.jobdescription-inputcategory h1.title, .jobdescription-perspective h1.title {
     margin: 0;
 }
-.jobdescription-inputcategory h1.title + pre, .jobdescription-perspective h1.title + pre
-{
-    background: #eee;
-    padding: 5px 15px;
-    margin: 0;
-}
-pre
-{
+
+    .jobdescription-inputcategory h1.title + pre, .jobdescription-perspective h1.title + pre {
+        background: #eee;
+        padding: 5px 15px;
+        margin: 0;
+    }
+
+pre {
     white-space: pre-wrap;
     font-weight: normal;
 }
-.jobdescription-inputitem
-{
+
+.jobdescription-inputitem {
     overflow: auto;
     border: solid 3px #eee;
     border-top: none;
 }
-.jobdescription-inputitem h2, .jobdescription-goal > h2, .jobdescription-kra > h2, .jobdescription-kpi > h2
-{
-    margin: 0;
-    padding: 5px 12px;
-    font-size: 11px;
-}
-.jobdescription-inputitem h2 + pre, .jobdescription-goal > h2 + pre, .jobdescription-kra > h2 + pre, .jobdescription-kpi > h2 + pre
-{
-    padding: 5px 12px 5px 27px;
-    margin: 0;
-}
-.jobdescription-goal > h2 + pre, .jobdescription-kra > h2 + pre, .jobdescription-kpi > h2 + pre
-{
-    padding-left: 12px;
-}
-.jobdescription-inputitem label, .jobdescription-kpi label
-{
-    margin-top: 5px;
-    padding: 0 0 5px 27px;
-    display: inline-block;
-    width: 100px;
-    float: left;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.jobdescription-inputitem label + pre, .jobdescription-kpi label + pre
-{
-    margin: 5px 0 0 127px;
-    padding: 0 0 5px 0;
-}
+
+    .jobdescription-inputitem h2, .jobdescription-goal > h2, .jobdescription-kra > h2, .jobdescription-kpi > h2 {
+        margin: 0;
+        padding: 5px 12px;
+        font-size: 11px;
+    }
+
+        .jobdescription-inputitem h2 + pre, .jobdescription-goal > h2 + pre, .jobdescription-kra > h2 + pre, .jobdescription-kpi > h2 + pre {
+            padding: 5px 12px 5px 27px;
+            margin: 0;
+        }
+
+        .jobdescription-goal > h2 + pre, .jobdescription-kra > h2 + pre, .jobdescription-kpi > h2 + pre {
+            padding-left: 12px;
+        }
+
+    .jobdescription-inputitem label, .jobdescription-kpi label {
+        margin-top: 5px;
+        padding: 0 0 5px 27px;
+        display: inline-block;
+        width: 100px;
+        float: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+        .jobdescription-inputitem label + pre, .jobdescription-kpi label + pre {
+            margin: 5px 0 0 127px;
+            padding: 0 0 5px 0;
+        }

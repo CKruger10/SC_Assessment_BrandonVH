@@ -1,7 +1,7 @@
 ﻿using System;
+using System.Text;
 using System.Web;
 using System.Xml;
-using System.Text;
 
 namespace Interview
 {
@@ -15,7 +15,6 @@ namespace Interview
                 var dt2 = MapToXslt(LoadXml("/Res/JD_Recuirements.xml"), "/Res/JobDescription_RequirementsProfile.xslt");
                 ContentDiv1.InnerHtml = dt1;
                 ContentDiv2.InnerHtml = dt2;
-
             }
         }
 
@@ -23,7 +22,7 @@ namespace Interview
         {
             XmlDocument doc = new XmlDocument();
             string fullPath = Server.MapPath(path);
-           
+
             doc.Load(fullPath);
             HTMLEncodeAttributes(doc.DocumentElement);
             return doc;
@@ -42,29 +41,29 @@ namespace Interview
                             var val = attr.Value;
                             //while (true)
                             //{
-                                //if (val != val)
-                                //{
-                                    //val = val;
-                                    //itterration++;
-                                //}
-                                //else
-                                //{
-                                    //break;
-                                //}
+                            //if (val != val)
+                            //{
+                            //val = val;
+                            //itterration++;
+                            //}
+                            //else
+                            //{
+                            //break;
+                            //}
                             //}
 
-                            for(int i = 0; i < itterration;i++)
+                            for (int i = 0; i < itterration; i++)
                             {
                                 val = val;
                             }
 
                             attr.Value = val;
                         }
-                    HTMLEncodeAttributes(innernode);                  
-                }        
+                    HTMLEncodeAttributes(innernode);
+                }
         }
 
-        private string MapToXslt (XmlDocument Xml,string xsltPath)
+        private string MapToXslt(XmlDocument Xml, string xsltPath)
         {
             StringBuilder str = new StringBuilder();
             using (System.IO.TextWriter writer = new System.IO.StringWriter(str))
@@ -75,7 +74,7 @@ namespace Interview
                 transform.Transform(Xml, arguments, writer);
             }
             var data = str.ToString();
-          
+
             return HttpUtility.HtmlDecode(data);
         }
     }

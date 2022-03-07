@@ -1,11 +1,9 @@
-﻿html, body{
-    padding:0px;
-    margin:0px;
+﻿html, body {
+    padding: 0px;
+    margin: 0px;
 }
 
-
-h1.title
-{
+h1.title {
     /*position: absolute;*/
     top: 0;
     left: 0;
@@ -17,10 +15,10 @@ h1.title
     color: #fff;
     font-weight: normal;
     font-weight: bold;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
-h1.sub-title
-{
+
+h1.sub-title {
     position: absolute;
     top: 0;
     left: 0;
@@ -33,11 +31,10 @@ h1.sub-title
     font-weight: normal;
     text-transform: uppercase;
 }
-ul.tab-strip
-{
-  
+
+ul.tab-strip {
     width: 100%;
-    max-width:100%;
+    max-width: 100%;
     padding: 0;
     margin: 0;
     /*position: absolute;*/
@@ -46,23 +43,23 @@ ul.tab-strip
     /*height: 37px;*/
     /*white-space:nowrap;*/
 }
-ul.tab-strip-top
-{
+
+ul.tab-strip-top {
     top: 0px;
 }
-ul.tab-strip-sub
-{
+
+ul.tab-strip-sub {
     top: 75px;
 }
-ul.tab-strip-bottom
-{
+
+ul.tab-strip-bottom {
     top: auto;
     bottom: 0px;
     border-bottom: none;
     border-top: solid 3px #eee;
 }
-ul.tab-strip li.cutoff-view
-{
+
+ul.tab-strip li.cutoff-view {
     position: absolute;
     top: 0;
     float: left;
@@ -74,8 +71,8 @@ ul.tab-strip li.cutoff-view
     white-space: nowrap;
     overflow: hidden;
 }
-ul.tab-strip li
-{
+
+ul.tab-strip li {
     list-style-type: none;
     display: inline-block;
     /*float: left;*/
@@ -86,36 +83,36 @@ ul.tab-strip li
     border-bottom: solid 3px transparent;
     font-size: 11px;
 }
-ul.tab-strip li.hover a
-{
-    border-bottom: solid 3px #ccc;
-}
-ul.tab-strip-bottom li
-{
+
+    ul.tab-strip li.hover a {
+        border-bottom: solid 3px #ccc;
+    }
+
+ul.tab-strip-bottom li {
     top: -6px;
     border-bottom: none;
     border-top: solid 3px transparent;
 }
-ul.tab-strip-bottom li a
-{
-    border-top: solid 3px transparent;
-}
-ul.tab-strip-bottom li.hover a
-{
-    border-bottom: none;
-    border-top: solid 3px #ccc;
-}
-ul.tab-strip li.selected a
-{
+
+    ul.tab-strip-bottom li a {
+        border-top: solid 3px transparent;
+    }
+
+    ul.tab-strip-bottom li.hover a {
+        border-bottom: none;
+        border-top: solid 3px #ccc;
+    }
+
+ul.tab-strip li.selected a {
     border-bottom: solid 3px blue;
 }
-ul.tab-strip-bottom li.selected a
-{
+
+ul.tab-strip-bottom li.selected a {
     border-bottom: none;
     border-top: solid 3px blue;
 }
-ul.tab-strip li a, ul.tab-strip li span
-{
+
+ul.tab-strip li a, ul.tab-strip li span {
     color: #777;
     display: block;
     padding: 10px;
@@ -123,72 +120,69 @@ ul.tab-strip li a, ul.tab-strip li span
     outline: none;
     text-align: center;
 }
-ul.tab-strip li a.button
-{
-    width: auto;
-    font-size: 11px;
-    display: inline-block;
-    margin: 4px 2px;
-    padding: 4px;
-}
+
+    ul.tab-strip li a.button {
+        width: auto;
+        font-size: 11px;
+        display: inline-block;
+        margin: 4px 2px;
+        padding: 4px;
+    }
 /*ul.tab-strip li input, ul.tab-strip li select
 {
     margin: 2px 3px 0 3px;
 }*/
-div.content
-{
- 
-    width:100%;
+div.content {
+    width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 0;
     webkit-transform: translate3d(0,0,0);
     -webkit-overflow-scrolling: touch;
 }
-div.content-subTabs
-{
+
+div.content-subTabs {
     top: 115px;
 }
-div.content-grey
-{
+
+div.content-grey {
     background: #f0f0f0;
 }
-div.content-top
-{
+
+div.content-top {
     top: 40px;
 }
-div.content-actions
-{
+
+div.content-actions {
     bottom: 37px;
 }
-ul.tab-strip li.action
-{
+
+ul.tab-strip li.action {
     /*float: right;*/
     position: absolute;
     right: 0;
     overflow: hidden;
 }
-ul.tab-strip li.action > *
-{
+
+    ul.tab-strip li.action > * {
+        float: left;
+    }
+
+    ul.tab-strip li.action #search {
+        margin: 1px 5px;
+        height: 16px;
+    }
+
+    ul.tab-strip li.action #selectedUserImage {
+        margin: 1px 5px 0 7px;
+        cursor: pointer;
+    }
+
+ul.tab-strip li.action-floatleft {
     float: left;
-}
-ul.tab-strip li.action #search
-{
-    margin: 1px 5px;
-    height: 16px;
-}
-ul.tab-strip li.action #selectedUserImage
-{
-    margin:1px 5px 0 7px;
-    cursor: pointer;
 }
 
-ul.tab-strip li.action-floatleft
-{
-    float: left;
-}
-ul.tab-strip li.title
-{
+ul.tab-strip li.title {
     top: 0;
     float: left;
     margin: 0;
@@ -196,8 +190,8 @@ ul.tab-strip li.title
     border-bottom: none;
     background: #eee;
 }
-ul.tab-strip li.action a
-{
+
+ul.tab-strip li.action a {
     background: blue;
     color: #fff;
     margin: 1px 3px 3px 3px;
@@ -206,15 +200,15 @@ ul.tab-strip li.action a
     width: 24px;
     text-align: center;
 }
-ul.tab-strip li.action-small a
-{
+
+ul.tab-strip li.action-small a {
     width: 25px;
     font-size: 12px;
     padding: 5px 0px 5px 0;
     margin: 3px 5px 3px 5px;
 }
-div.action-strip
-{
+
+div.action-strip {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -224,28 +218,27 @@ div.action-strip
     padding: 0 2px 0 0;
     height: 34px;
 }
-ul.tab-strip li.action a.falloffTabs
-{
-    width: 20px; 
-    height: 12px; 
+
+ul.tab-strip li.action a.falloffTabs {
+    width: 20px;
+    height: 12px;
     padding: 9px 1px 3px 0;
     background: none;
     border: none;
     color: #777;
     font-size: 10px;
 }
-ul.tab-strip li.action a.falloffTabs:hover
-{
-    background: none;
-    border: none;
-    color: #777;
-}
-/*.buttons*/.ajaxUpload-button
-{
+
+    ul.tab-strip li.action a.falloffTabs:hover {
+        background: none;
+        border: none;
+        color: #777;
+    }
+/*.buttons*/ .ajaxUpload-button {
     padding: 5px;
 }
-a.action
-{
+
+a.action {
     display: inline-block;
     background: blue;
     color: #fff;
@@ -255,47 +248,47 @@ a.action
     width: 25px;
     font-size: 14px;
 }
-a.action:hover
-{
-    text-decoration: none;
-}
-.employee-workflow-container pre
-{
+
+    a.action:hover {
+        text-decoration: none;
+    }
+
+.employee-workflow-container pre {
     padding: 10px;
     margin: 0;
 }
-.info-message pre
-{
+
+.info-message pre {
     margin: 0;
 }
-a.attachment
-{
+
+a.attachment {
     float: left;
 }
-.popup-pointer
-{
+
+.popup-pointer {
 }
-.popup-body
-{
+
+.popup-body {
     position: absolute;
     width: auto;
     height: auto;
     border: solid 10px #ccc;
     background: #fff;
 }
-ul.employee-subtabs
-{
+
+ul.employee-subtabs {
     top: 40px;
 }
-.smooth-scroll
-{
+
+.smooth-scroll {
     overflow: auto;
     webkit-transform: translate3d(0,0,0);
     -webkit-overflow-scrolling: touch;
 }
-table.historydetails
-{
-    width:100%;
+
+table.historydetails {
+    width: 100%;
 }
 /*#menu a#falloffAdminNav{float:right; color:#000; border:none;}
 #menu a#falloffAdminNav:hover{}*/

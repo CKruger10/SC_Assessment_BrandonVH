@@ -9,11 +9,11 @@
   <xsl:template match="Perspective">
     <div class="jobdescription-perspective">
       <h1 class="title">
-        <xsl:value-of select="./@Name"/>
+        <xsl:value-of select="./@Name" />
       </h1>
       <xsl:if test="./@Description != ''">
         <pre>
-          <xsl:value-of disable-output-escaping="yes" select="./@Description"/>
+          <xsl:value-of disable-output-escaping="yes" select="./@Description" />
         </pre>
       </xsl:if>
       <xsl:apply-templates select="./StrategicGoal" />
@@ -23,11 +23,11 @@
   <xsl:template match="StrategicGoal">
     <div class="jobdescription-goal">
       <h2>
-        <xsl:value-of select="./@Name"/>
+        <xsl:value-of select="./@Name" />
       </h2>
       <xsl:if test="./@Description != ''">
         <pre>
-          <xsl:value-of disable-output-escaping="yes" select="./@Description"/>
+          <xsl:value-of disable-output-escaping="yes" select="./@Description" />
         </pre>
       </xsl:if>
       <xsl:apply-templates select="./KRA" />
@@ -37,11 +37,11 @@
   <xsl:template match="KRA">
     <div class="jobdescription-kra">
       <h2>
-        <xsl:value-of select="./@Name"/>
+        <xsl:value-of select="./@Name" />
       </h2>
       <xsl:if test="./@Description != ''">
         <pre>
-          <xsl:value-of disable-output-escaping="yes" select="./@Description"/>
+          <xsl:value-of disable-output-escaping="yes" select="./@Description" />
         </pre>
       </xsl:if>
       <xsl:apply-templates select="./KPI" />
@@ -51,18 +51,18 @@
   <xsl:template match="KPI">
     <div class="jobdescription-kpi">
       <h2>
-        <xsl:value-of select="./@Name"/>
+        <xsl:value-of select="./@Name" />
       </h2>
       <xsl:if test="./@Objective != ''">
         <label class="detailslabel">Objective</label>
         <pre>
-          <xsl:value-of disable-output-escaping="yes" select="./@Objective"/>
+          <xsl:value-of disable-output-escaping="yes" select="./@Objective" />
         </pre>
       </xsl:if>
       <xsl:if test="./@Measure != ''">
         <label class="detailslabel">Measure</label>
         <pre>
-          <xsl:value-of disable-output-escaping="yes" select="./@Measure"/>
+          <xsl:value-of disable-output-escaping="yes" select="./@Measure" />
         </pre>
       </xsl:if>
     </div>

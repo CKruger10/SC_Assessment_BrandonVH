@@ -9,11 +9,11 @@
   <xsl:template match="RequirementCategory">
     <div class="jobdescription-inputcategory">
       <h1 class="title">
-        <xsl:value-of select="./@Name"/>
+        <xsl:value-of select="./@Name" />
       </h1>
       <xsl:if test="./@Description != ''">
         <pre class="description">
-          <xsl:value-of disable-output-escaping="yes" select="./@Description"/>
+          <xsl:value-of disable-output-escaping="yes" select="./@Description" />
         </pre>
       </xsl:if>
       <xsl:apply-templates select="./RequirementItem" />
@@ -23,11 +23,11 @@
   <xsl:template match="RequirementItem">
     <div class="jobdescription-inputitem">
       <h2>
-        <xsl:value-of select="./@Name"/>
+        <xsl:value-of select="./@Name" />
       </h2>
       <xsl:if test="./@Criteria != ''">
         <pre class="description">
-          <xsl:value-of disable-output-escaping="yes" select="./@Criteria"/>
+          <xsl:value-of disable-output-escaping="yes" select="./@Criteria" />
         </pre>
       </xsl:if>
     </div>
